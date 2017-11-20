@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="13241" systemVersion="16G29" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="DataSiswa" representedClassName="DataSiswa" syncable="YES" codeGenerationType="class">
+        <attribute name="ds_age" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="ds_class" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="ds_email" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="ds_password" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="ds_school" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="ds_username" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Task" representedClassName="Task" syncable="YES" codeGenerationType="class">
+        <attribute name="day_task" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="description_task" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name_task" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="DataSiswa" positionX="-63" positionY="-18" width="128" height="135"/>
+        <element name="Task" positionX="-63" positionY="27" width="128" height="90"/>
+    </elements>
+</model>

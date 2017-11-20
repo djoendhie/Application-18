@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		522F9EB01FA184670010B420 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522F9EAF1FA184670010B420 /* AppDelegate.swift */; };
+		522F9EB21FA184670010B420 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522F9EB11FA184670010B420 /* ViewController.swift */; };
+		522F9EB51FA184670010B420 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 522F9EB31FA184670010B420 /* Main.storyboard */; };
+		522F9EB81FA184670010B420 /* QuizDataSiswa.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 522F9EB61FA184670010B420 /* QuizDataSiswa.xcdatamodeld */; };
+		522F9EBA1FA184670010B420 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 522F9EB91FA184670010B420 /* Assets.xcassets */; };
+		522F9EBD1FA184670010B420 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 522F9EBB1FA184670010B420 /* LaunchScreen.storyboard */; };
+		522F9EC81FA184670010B420 /* QuizDataSiswaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522F9EC71FA184670010B420 /* QuizDataSiswaTests.swift */; };
+		522F9ED31FA184670010B420 /* QuizDataSiswaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522F9ED21FA184670010B420 /* QuizDataSiswaUITests.swift */; };
+		522F9EE11FA18B630010B420 /* DataTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522F9EE01FA18B630010B420 /* DataTableViewController.swift */; };
+		522F9EE31FA18B890010B420 /* StudentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522F9EE21FA18B890010B420 /* StudentTableViewCell.swift */; };
+		522F9EE51FA18BB30010B420 /* InputDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522F9EE41FA18BB30010B420 /* InputDataViewController.swift */; };
+		522F9EE71FA18BD50010B420 /* DataInputedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522F9EE61FA18BD50010B420 /* DataInputedViewController.swift */; };
+		D677A8F21FC3188C0044A8B1 /* NoteTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D677A8F11FC3188C0044A8B1 /* NoteTableViewController.swift */; };
+		D677A8F41FC3189E0044A8B1 /* YourTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D677A8F31FC3189E0044A8B1 /* YourTableViewCell.swift */; };
+		D677A8F61FC318BA0044A8B1 /* AddTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D677A8F51FC318BA0044A8B1 /* AddTaskViewController.swift */; };
+		D677A8F81FC31B9B0044A8B1 /* images.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D677A8F71FC31B9B0044A8B1 /* images.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		522F9EC41FA184670010B420 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 522F9EA41FA184670010B420 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 522F9EAB1FA184670010B420;
+			remoteInfo = QuizDataSiswa;
+		};
+		522F9ECF1FA184670010B420 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 522F9EA41FA184670010B420 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 522F9EAB1FA184670010B420;
+			remoteInfo = QuizDataSiswa;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		522F9EAC1FA184670010B420 /* QuizDataSiswa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuizDataSiswa.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		522F9EAF1FA184670010B420 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		522F9EB11FA184670010B420 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		522F9EB41FA184670010B420 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		522F9EB71FA184670010B420 /* QuizDataSiswa.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = QuizDataSiswa.xcdatamodel; sourceTree = "<group>"; };
+		522F9EB91FA184670010B420 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		522F9EBC1FA184670010B420 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		522F9EBE1FA184670010B420 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		522F9EC31FA184670010B420 /* QuizDataSiswaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuizDataSiswaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		522F9EC71FA184670010B420 /* QuizDataSiswaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizDataSiswaTests.swift; sourceTree = "<group>"; };
+		522F9EC91FA184670010B420 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		522F9ECE1FA184670010B420 /* QuizDataSiswaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuizDataSiswaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		522F9ED21FA184670010B420 /* QuizDataSiswaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizDataSiswaUITests.swift; sourceTree = "<group>"; };
+		522F9ED41FA184670010B420 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		522F9EE01FA18B630010B420 /* DataTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataTableViewController.swift; sourceTree = SOURCE_ROOT; };
+		522F9EE21FA18B890010B420 /* StudentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentTableViewCell.swift; sourceTree = SOURCE_ROOT; };
+		522F9EE41FA18BB30010B420 /* InputDataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputDataViewController.swift; sourceTree = SOURCE_ROOT; };
+		522F9EE61FA18BD50010B420 /* DataInputedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataInputedViewController.swift; sourceTree = SOURCE_ROOT; };
+		D677A8F11FC3188C0044A8B1 /* NoteTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteTableViewController.swift; sourceTree = SOURCE_ROOT; };
+		D677A8F31FC3189E0044A8B1 /* YourTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YourTableViewCell.swift; sourceTree = "<group>"; };
+		D677A8F51FC318BA0044A8B1 /* AddTaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskViewController.swift; sourceTree = "<group>"; };
+		D677A8F71FC31B9B0044A8B1 /* images.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = images.jpg; path = ../../../../../Desktop/images.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		522F9EA91FA184670010B420 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		522F9EC01FA184670010B420 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		522F9ECB1FA184670010B420 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		522F9EA31FA184670010B420 = {
+			isa = PBXGroup;
+			children = (
+				522F9EAE1FA184670010B420 /* QuizDataSiswa */,
+				522F9EC61FA184670010B420 /* QuizDataSiswaTests */,
+				522F9ED11FA184670010B420 /* QuizDataSiswaUITests */,
+				522F9EAD1FA184670010B420 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		522F9EAD1FA184670010B420 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				522F9EAC1FA184670010B420 /* QuizDataSiswa.app */,
+				522F9EC31FA184670010B420 /* QuizDataSiswaTests.xctest */,
+				522F9ECE1FA184670010B420 /* QuizDataSiswaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		522F9EAE1FA184670010B420 /* QuizDataSiswa */ = {
+			isa = PBXGroup;
+			children = (
+				D677A8F71FC31B9B0044A8B1 /* images.jpg */,
+				522F9EAF1FA184670010B420 /* AppDelegate.swift */,
+				522F9EB11FA184670010B420 /* ViewController.swift */,
+				522F9EB31FA184670010B420 /* Main.storyboard */,
+				522F9EB91FA184670010B420 /* Assets.xcassets */,
+				522F9EBB1FA184670010B420 /* LaunchScreen.storyboard */,
+				522F9EBE1FA184670010B420 /* Info.plist */,
+				522F9EB61FA184670010B420 /* QuizDataSiswa.xcdatamodeld */,
+				522F9EE01FA18B630010B420 /* DataTableViewController.swift */,
+				522F9EE21FA18B890010B420 /* StudentTableViewCell.swift */,
+				522F9EE41FA18BB30010B420 /* InputDataViewController.swift */,
+				522F9EE61FA18BD50010B420 /* DataInputedViewController.swift */,
+				D677A8F11FC3188C0044A8B1 /* NoteTableViewController.swift */,
+				D677A8F31FC3189E0044A8B1 /* YourTableViewCell.swift */,
+				D677A8F51FC318BA0044A8B1 /* AddTaskViewController.swift */,
+			);
+			path = QuizDataSiswa;
+			sourceTree = "<group>";
+		};
+		522F9EC61FA184670010B420 /* QuizDataSiswaTests */ = {
+			isa = PBXGroup;
+			children = (
+				522F9EC71FA184670010B420 /* QuizDataSiswaTests.swift */,
+				522F9EC91FA184670010B420 /* Info.plist */,
+			);
+			path = QuizDataSiswaTests;
+			sourceTree = "<group>";
+		};
+		522F9ED11FA184670010B420 /* QuizDataSiswaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				522F9ED21FA184670010B420 /* QuizDataSiswaUITests.swift */,
+				522F9ED41FA184670010B420 /* Info.plist */,
+			);
+			path = QuizDataSiswaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		522F9EAB1FA184670010B420 /* QuizDataSiswa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 522F9ED71FA184670010B420 /* Build configuration list for PBXNativeTarget "QuizDataSiswa" */;
+			buildPhases = (
+				522F9EA81FA184670010B420 /* Sources */,
+				522F9EA91FA184670010B420 /* Frameworks */,
+				522F9EAA1FA184670010B420 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QuizDataSiswa;
+			productName = QuizDataSiswa;
+			productReference = 522F9EAC1FA184670010B420 /* QuizDataSiswa.app */;
+			productType = "com.apple.product-type.application";
+		};
+		522F9EC21FA184670010B420 /* QuizDataSiswaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 522F9EDA1FA184670010B420 /* Build configuration list for PBXNativeTarget "QuizDataSiswaTests" */;
+			buildPhases = (
+				522F9EBF1FA184670010B420 /* Sources */,
+				522F9EC01FA184670010B420 /* Frameworks */,
+				522F9EC11FA184670010B420 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				522F9EC51FA184670010B420 /* PBXTargetDependency */,
+			);
+			name = QuizDataSiswaTests;
+			productName = QuizDataSiswaTests;
+			productReference = 522F9EC31FA184670010B420 /* QuizDataSiswaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		522F9ECD1FA184670010B420 /* QuizDataSiswaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 522F9EDD1FA184670010B420 /* Build configuration list for PBXNativeTarget "QuizDataSiswaUITests" */;
+			buildPhases = (
+				522F9ECA1FA184670010B420 /* Sources */,
+				522F9ECB1FA184670010B420 /* Frameworks */,
+				522F9ECC1FA184670010B420 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				522F9ED01FA184670010B420 /* PBXTargetDependency */,
+			);
+			name = QuizDataSiswaUITests;
+			productName = QuizDataSiswaUITests;
+			productReference = 522F9ECE1FA184670010B420 /* QuizDataSiswaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		522F9EA41FA184670010B420 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Smk IDN";
+				TargetAttributes = {
+					522F9EAB1FA184670010B420 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					522F9EC21FA184670010B420 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 522F9EAB1FA184670010B420;
+					};
+					522F9ECD1FA184670010B420 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 522F9EAB1FA184670010B420;
+					};
+				};
+			};
+			buildConfigurationList = 522F9EA71FA184670010B420 /* Build configuration list for PBXProject "QuizDataSiswa" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 522F9EA31FA184670010B420;
+			productRefGroup = 522F9EAD1FA184670010B420 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				522F9EAB1FA184670010B420 /* QuizDataSiswa */,
+				522F9EC21FA184670010B420 /* QuizDataSiswaTests */,
+				522F9ECD1FA184670010B420 /* QuizDataSiswaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		522F9EAA1FA184670010B420 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				522F9EBD1FA184670010B420 /* LaunchScreen.storyboard in Resources */,
+				522F9EBA1FA184670010B420 /* Assets.xcassets in Resources */,
+				522F9EB51FA184670010B420 /* Main.storyboard in Resources */,
+				D677A8F81FC31B9B0044A8B1 /* images.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		522F9EC11FA184670010B420 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		522F9ECC1FA184670010B420 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		522F9EA81FA184670010B420 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				522F9EB21FA184670010B420 /* ViewController.swift in Sources */,
+				522F9EE71FA18BD50010B420 /* DataInputedViewController.swift in Sources */,
+				522F9EE31FA18B890010B420 /* StudentTableViewCell.swift in Sources */,
+				522F9EE11FA18B630010B420 /* DataTableViewController.swift in Sources */,
+				D677A8F41FC3189E0044A8B1 /* YourTableViewCell.swift in Sources */,
+				522F9EB01FA184670010B420 /* AppDelegate.swift in Sources */,
+				D677A8F21FC3188C0044A8B1 /* NoteTableViewController.swift in Sources */,
+				522F9EB81FA184670010B420 /* QuizDataSiswa.xcdatamodeld in Sources */,
+				522F9EE51FA18BB30010B420 /* InputDataViewController.swift in Sources */,
+				D677A8F61FC318BA0044A8B1 /* AddTaskViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		522F9EBF1FA184670010B420 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				522F9EC81FA184670010B420 /* QuizDataSiswaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		522F9ECA1FA184670010B420 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				522F9ED31FA184670010B420 /* QuizDataSiswaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		522F9EC51FA184670010B420 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 522F9EAB1FA184670010B420 /* QuizDataSiswa */;
+			targetProxy = 522F9EC41FA184670010B420 /* PBXContainerItemProxy */;
+		};
+		522F9ED01FA184670010B420 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 522F9EAB1FA184670010B420 /* QuizDataSiswa */;
+			targetProxy = 522F9ECF1FA184670010B420 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		522F9EB31FA184670010B420 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				522F9EB41FA184670010B420 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		522F9EBB1FA184670010B420 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				522F9EBC1FA184670010B420 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		522F9ED51FA184670010B420 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		522F9ED61FA184670010B420 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		522F9ED81FA184670010B420 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QuizDataSiswa/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tes.QuizDataSiswa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		522F9ED91FA184670010B420 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QuizDataSiswa/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tes.QuizDataSiswa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		522F9EDB1FA184670010B420 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QuizDataSiswaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tes.QuizDataSiswaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QuizDataSiswa.app/QuizDataSiswa";
+			};
+			name = Debug;
+		};
+		522F9EDC1FA184670010B420 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QuizDataSiswaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tes.QuizDataSiswaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QuizDataSiswa.app/QuizDataSiswa";
+			};
+			name = Release;
+		};
+		522F9EDE1FA184670010B420 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QuizDataSiswaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tes.QuizDataSiswaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = QuizDataSiswa;
+			};
+			name = Debug;
+		};
+		522F9EDF1FA184670010B420 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QuizDataSiswaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tes.QuizDataSiswaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = QuizDataSiswa;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		522F9EA71FA184670010B420 /* Build configuration list for PBXProject "QuizDataSiswa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				522F9ED51FA184670010B420 /* Debug */,
+				522F9ED61FA184670010B420 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		522F9ED71FA184670010B420 /* Build configuration list for PBXNativeTarget "QuizDataSiswa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				522F9ED81FA184670010B420 /* Debug */,
+				522F9ED91FA184670010B420 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		522F9EDA1FA184670010B420 /* Build configuration list for PBXNativeTarget "QuizDataSiswaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				522F9EDB1FA184670010B420 /* Debug */,
+				522F9EDC1FA184670010B420 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		522F9EDD1FA184670010B420 /* Build configuration list for PBXNativeTarget "QuizDataSiswaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				522F9EDE1FA184670010B420 /* Debug */,
+				522F9EDF1FA184670010B420 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		522F9EB61FA184670010B420 /* QuizDataSiswa.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				522F9EB71FA184670010B420 /* QuizDataSiswa.xcdatamodel */,
+			);
+			currentVersion = 522F9EB71FA184670010B420 /* QuizDataSiswa.xcdatamodel */;
+			path = QuizDataSiswa.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 522F9EA41FA184670010B420 /* Project object */;
+}
